@@ -30,6 +30,9 @@ Developers assume no liability and are not responsible for any misuse or damage 
 - The ability to detect external IP & Interface address .
 - Automatically creates AutoRun files for USB / CDROM exploitation
 
+### But it's shit! And your implementation sucks!
+- Yes, you're probably correct. Feel free to "Not use it" and there is a pull button to "Make it better". 
+
 
 ## Installation
 Instructions on how to install *TheFatRat*
@@ -42,6 +45,15 @@ chmod +x setup.sh && ./setup.sh
 ```bash
 cd TheFatRat
 ./update && chmod +x setup.sh && ./setup.sh
+```
+### Troubleshoot on TheFatRat
+chk_tools script to use in case of problems in setup.sh of fatrat
+this script will check if everything is in the right version to run fatrat
+and will also provide you a solution for the problem
+```
+cd TheFatRat
+chmod +x chk_tools 
+./chk_tools
 ```
 
 ## Tools Overview
